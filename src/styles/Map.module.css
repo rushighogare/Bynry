@@ -1,0 +1,16 @@
+.map {
+    padding: 20px;
+  }
+  
+  .map h2 {
+    margin-bottom: 10px;
+  }
+  
+  .map ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .map li {
+    margin-bottom: 5px;
+  }
