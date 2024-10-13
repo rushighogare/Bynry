@@ -1,14 +1,14 @@
 # BNRY CASE STUDY
 
 ## Profile Page
-![image](https://github.com/user-attachments/assets/7b036b97-8b7a-42fb-96f7-0193200b8402)
-
+![image](https://github.com/user-attachments/assets/992ce383-7538-4410-965a-12093c9ce106)
 
 ## Search Profile
-![image](https://github.com/user-attachments/assets/07fee6b4-a28e-4871-95d7-b48f444f93cb)
+![image](https://github.com/user-attachments/assets/c3426def-912b-46f3-948f-0fab0033d0e9)
 
 ## Map Integration
-![image](https://github.com/user-attachments/assets/23c1a4ef-098b-4008-a16d-8e4d16e2081c)
+![image](https://github.com/user-attachments/assets/db3eefd2-73bf-4c86-b767-6224269978e5)
 
 ## Admin Dashboard
-![image](https://github.com/user-attachments/assets/1f1a42da-7a0b-43f9-9c9c-8a220f359cc7)
+![image](https://github.com/user-attachments/assets/a8a44c69-74d6-4bb1-9e3f-8d686da97078)
+
