@@ -6,7 +6,7 @@ import ProfileDashboard from './pages/dashboard';
 function App() {
   return (
     <Routes>
-      <Route path="/profile" element={<Profiles />} />
+      <Route path="/" element={<Profiles />} />
       <Route path="/dashboard" element={<ProfileDashboard />} />
     </Routes>
   );

@@ -49,7 +49,7 @@ export default function ProfileDashboard() {
   }
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 text-white">
       <h1 className="text-3xl font-bold mb-8">Profile Dashboard</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -60,7 +60,7 @@ export default function ProfileDashboard() {
           <CardContent>
             <form className="space-y-4">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
+                <label htmlFor="name" className="block text-sm font-medium ">Name</label>
                 <Input
                   id="name"
                   value={editingProfile ? editingProfile.name : newProfile.name}
@@ -71,7 +71,7 @@ export default function ProfileDashboard() {
                 />
               </div>
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
+                <label htmlFor="email" className="block text-sm font-medium ">Email</label>
                 <Input
                   id="email"
                   type="email"
@@ -83,7 +83,7 @@ export default function ProfileDashboard() {
                 />
               </div>
               <div>
-                <label htmlFor="photo" className="block text-sm font-medium text-gray-700">Photo</label>
+                <label htmlFor="photo" className="block text-sm font-medium ">Photo</label>
                 <Input
                   id="photo"
                   type="url"
@@ -95,7 +95,7 @@ export default function ProfileDashboard() {
                 />
               </div>
               <div>
-                <label htmlFor="location" className="block text-sm font-medium text-gray-700">Location</label>
+                <label htmlFor="location" className="block text-sm font-medium ">Location</label>
                 <Input
                   id="location"
                   type="text"
@@ -107,7 +107,7 @@ export default function ProfileDashboard() {
                 />
               </div>
               <div>
-                <label htmlFor="description" className="block text-sm font-medium text-gray-700">Bio</label>
+                <label htmlFor="description" className="block text-sm font-medium ">Bio</label>
                 <Textarea
                   id="description"
                   value={editingProfile ? editingProfile.description : newProfile.description}
@@ -118,7 +118,7 @@ export default function ProfileDashboard() {
                 />
               </div>
               <div>
-                <label htmlFor="skills" className="block text-sm font-medium text-gray-700">Skills</label>
+                <label htmlFor="skills" className="block text-sm font-medium ">Skills</label>
                 <Input
                   id="skills"
                   type="text"

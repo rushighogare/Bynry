@@ -17,7 +17,7 @@ interface MapProps {
 
 export default function Map({ profile }: MapProps) {
   return (
-    <div className="h-full flex flex-col">
+    <div className="h-full flex flex-col ">
       <Card className="mb-6">
         <CardHeader>
           <CardTitle className="text-lg">Location</CardTitle>
@@ -42,7 +42,7 @@ export default function Map({ profile }: MapProps) {
           <CardTitle className="text-lg">Profile Summary</CardTitle>
         </CardHeader>
         <CardContent>
-          <p className="text-sm text-gray-600 mb-4">{profile.description}</p>
+          <p className="text-sm text-zinc-200 mb-4">{profile.description}</p>
           <h3 className="font-semibold mb-2">Skills</h3>
           <div className="flex flex-wrap gap-2">
             {profile.skills.map(skill => (
